@@ -1,0 +1,171 @@
+html {
+    --red1: #DB0017;
+    --red2: #8C0010;
+    --green1: #2BFF59;
+    --green2: #0FD93B;
+    --green3: #048C22;
+    --white1: #fafbfc;
+    --white2: #eaebec;
+    --white3: #dcddde;
+    --black1: #414b52;
+    --black2: #313b42;
+    --black3: #232c33;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, serif;
+    background: #fff;
+    color: var(--black1);
+    margin: 0;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-family: "Garamond", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    display: inline-block;
+    font-family: "Garamond", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    background: var(--red1);
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background: var(--red2);
+}
+
+.titulo {
+    font-size: 1.625rem;
+    color: var(--green2);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* BENEFICIOS */
+
+/*
+.beneficios {
+    background: url("../img/bg-sobre.jpg") no-repeat center center;
+    padding: 0px;
+}
+TIRAR O COD DE BAIXO E RESUMIR A ESTE*/ 
+
+.beneficios {
+    margin-top: 68px;
+    width: 100%;
+    height: 500px;
+    /*background: url("img/escola.jpg") no-repeat center center;*/
+    background-color: #313b42;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.beneficios h1 {
+    font-size: 2.25rem;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.beneficios p {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* ATIVIDADES EXTRACURRICULARES */
+
+/* AUXILIO PERMANENCIA */
+
+.auxilio {
+    background: var(--white2);
+}
+
+.auxilio-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    /*text-align: center;*/
+}
+
+.auxilio-lista li {
+    list-style: none;
+    background: var(--black2);
+    padding: 1rem 2rem 2rem 2rem;
+    border: 1px solid var(--green1);
+    border-radius: 5px;
+}
+
+.auxilio-lista h2 {
+    font-size: 1.5rem;
+    color: var(--green1);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.auxilio-lista p {
+    color: #fff;
+}
+
+.obs {
+    text-align: left;
+    font-size: 0.75rem;
+    color: var(--red2);
+}
+
+/* SOCIOPEDAGOGICO */
+
+.socio li {
+    padding-bottom: 0.8rem;
+}
+
+/* PASSE ESTUDANTIL E TRANSPORTE */
+
+/* add 2 botões: para baixar passo a passo para pegar a declaração no suap e outro para ver os horarios do busão */
+
+.passe  {
+    background: var(--white2);
+}

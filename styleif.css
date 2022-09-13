@@ -1,0 +1,254 @@
+/* ESTILOS E CONFIGURAÇÕES PADRÕES */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html {
+    --red1: #DB0017;
+    --red2: #8C0010;
+    --green1: #2BFF59;
+    --green2: #0FD93B;
+    --green3: #048C22;
+    --white1: #fafbfc;
+    --white2: #eaebec;
+    --white3: #dcddde;
+    --black1: #414b52;
+    --black2: #313b42;
+    --black3: #232c33;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, serif;
+    background: #fff;
+    color: var(--black1);
+    margin: 0;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    display: inline-block;
+    font-family: "Garamond", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    background: var(--red1);
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background: var(--red2);
+}
+
+.titulo {
+    font-size: 1.625rem;
+    color: var(--green2);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* MAIN */
+/* Colocar uma foto do campus de background 1200 x 500 e */
+
+.sobre {
+    margin-top: 68px;
+    width: 100%;
+    height: 500px;
+    /*background: url("img/escola.jpg") no-repeat center center;*/
+    background-color: #313b42;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /*filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+}
+
+.sobre h1 {
+    font-size: 2.25rem;
+    /*color: #fff;*/
+    text-transform: uppercase;
+}
+
+.sobre p {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* FORMAS DE INGRESSO */
+
+.formas-de-ingresso {
+    text-align: center;
+}
+
+.formas-de-ingresso p {
+    text-align: left;
+}
+
+#link {
+    color: var(--red1);
+    transition: 0.3s, ease;
+}
+
+#link:hover {
+    color: var(--red2);
+}
+
+/* MÉTODOS AVALIATIVOS */ 
+/* Como será a distribuição dos tópicos? Por lista mesmo? */ 
+
+.metodos-avaliativos {
+    width: 100%;
+    background: var(--white2);
+    /*text-align: center;*/
+}
+
+.metodos-avaliativos p {
+    text-align: center;
+}
+
+.grid-metodos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.grid-metodos li {
+    list-style: none;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid var(--white3);
+    border-radius: 5px;
+}
+
+.grid-metodos h2 {
+    font-size: 1.125rem;
+    /*color: var(--red2);*/
+    /*text-transform: uppercase;*/
+}
+
+/* ALIMENTAÇÃO */ 
+/* Add uma imagem de background 1200 x 500 e */
+
+.alimentacao {
+    width: 100%;
+    /*background: url("img/alimentacao.jpg") no-repeat center center;*/
+    background-color: #313b42;
+    background-size: cover;
+    text-align: center;
+}
+
+.alimentacao p, .alimentacao h1 {
+    color: #fff;
+}
+
+/* SETORES DO IF */
+/* Como será a distribuição dos tópicos? Cards? */ 
+
+.setores-if {
+    width: 100%;
+    background: var(--white2);
+    text-align: center;
+}
+
+.grid-setores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.grid-setores li {
+    list-style: none;
+    /*padding: 1rem;*/
+    border: 1px solid var(--white3);
+    border-radius: 5px;
+}
+
+.fundo-conteudo {
+    list-style: none;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid var(--white3);
+    border-radius: 0 0 5px 5px;
+    /*height: 100%;*/
+}
+
+.fundo-sigla {
+    background-color: var(--green3);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.fundo-sigla h1 {
+    color: #fff;
+}
+
+.fundo-conteudo h2 {
+    font-size: 1.125rem;
+}
+
+.fundo-conteudo p {
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+.fundo-conteudo a {
+    display: block;
+    margin-top: 1rem;
+    color: var(--red1);
+    transition: 0.1s ease-out;
+    /*font-family: "Garamont", sans-serif;*/
+}
+
+/* LOCALIZAÇÃO */
+
+.localizacao {
+    text-align: center;
+}
+
+.obs {
+    text-align: left;
+    font-size: 0.75rem;
+    color: var(--red2);
+}
